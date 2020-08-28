@@ -1,0 +1,83 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav
+{
+    float: left;
+    background-color: #999966;
+    width: 250px;
+    height: 720px;
+    
+}
+nav ul
+{
+    padding: 1px;
+}
+li
+{
+    text-align: center;
+    margin-top: 50px;
+}
+header
+{
+    background-color: #3333cc;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
+section:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer{
+
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+    bottom: fix;
+}
+.contain
+{
+margin-right: auto;
+margin-left: auto;
+        
+}
+
+.btntable
+{
+    margin-left: auto;
+        margin-right: auto;
+        padding-bottom:15px;
+}
+.main
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.txt
+{
+    border-radius: 15px;
+    width:250px;
+    padding: 2px;
+    font-size:11px;
+}
+.Save
+{
+    border-radius: 15px;
+    width:95px;
+    height: 30px;
+    margin-right: 40px;
+}
+.Cancel
+{
+    border-radius: 15px;
+    width:95px;
+    height: 30px;
+}
