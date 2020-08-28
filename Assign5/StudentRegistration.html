@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+         input[type=button] {
+            /*background-color: blue;*/
+            /*border: rounded;*/
+            text-decoration: none;
+            color: black;
+            padding: 10px 10px;
+            margin: 10px 10px;
+            font-size: 17px;
+            width: 85px;
+            height: 40px;
+         }
+      </style>
+<script>
+  function  myfun()
+  {
+    var x1=document.getElementById('text1').value;
+    var x2=document.getElementById('text2').value;
+    var x3=document.getElementById('text3').value;
+    var x4=document.getElementById('text4').value;
+    var x5=document.getElementById('text5').value;
+    var x6=document.getElementById('text6').value;
+    var x7=document.getElementById('text7').value;
+    var x8=document.getElementById('text8').value;
+    alert("Name : "+x1+"\n LastName : "+x2+"\n Designation : "+x3+"\n Mob Number : "+x4+"\n Address : "+x5+"\n City : "+x6+"\n State : "+x7+"\n Pin Code : "+x8);
+    
+  }
+
+</script>
+
+</head>
+
+<body>
+<form style="margin-left: 30px;">
+  <label>FullName :&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text1"><br><br>
+    <label>LastName :&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text2"><br><br> 
+    <label>Designation :&nbsp; </label>
+    <input type="text" id="text3"><br><br> 
+    <label>Mobile No :&nbsp;&nbsp; </label>
+    <input type="text" id="text4"><br><br> 
+    <label>Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text5"><br><br> 
+    <label>City :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text6"><br><br> 
+    <label>State :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text7"><br><br> 
+    <label>Pin Code :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="text8"><br>
+    <br>
+    <br>
+    <br>
+
+    
+    <input type="button"  value="submit" onclick="myfun()">
+    <!-- <input type="button"  value="reset" onclick="myfun()"> -->
+    <input type="reset" value="reset" style="width: 85px;
+            height: 41px;">
+</form>
+</body>
+</html>
